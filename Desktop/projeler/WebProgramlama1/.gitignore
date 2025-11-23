@@ -1,0 +1,25 @@
+# .gitignore dosyası içeriği
+
+# Build ve Gereksiz Dosyalar
+bin/
+obj/
+.vs/
+.idea/
+*.user
+*.suo
+*.userprefs
+*.DS_Store
+
+# Veritabanı dosyaları (yanlışlıkla yüklenmesin)
+*.db
+*.sqlite
+
+# Loglar
+*.log
+
+# Windows ve Mac sistem dosyaları
+Thumbs.db
+.DS_Store
+
+# Kullanıcıya özel ayarlar
+appsettings.Development.json
